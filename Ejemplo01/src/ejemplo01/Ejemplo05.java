@@ -26,7 +26,9 @@ public class Ejemplo05 {
         
         System.out.println(nombreEstudiante+"\n"+"\n"+apellidoEstudiante+ "\n"+
                 "\n"+ nacimiento); */
-        System.out.println(nombreEstudiante+"\t"+apellidoEstudiante);   
-        System.out.println(nombreEstudiante+"\n\t"+apellidoEstudiante);   
+        System.out.println(nombreEstudiante+"\t"+apellidoEstudiante); 
+       // el "\t" es un tabulador = 4 espacios por efecto  
+        System.out.println(nombreEstudiante+"\n\t"+apellidoEstudiante); 
+       // el "\n" es un salto de linea
     }
 }
